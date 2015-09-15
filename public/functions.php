@@ -32,6 +32,10 @@ define("CONSTANTE" , 50);
 
 define("CUMPRIMENTO" , "Alô Mundo");
 
+$var1 = NULL;
+echo is_null($var1);
+echo isset($var1);
+
 
   //echo "Meu nome e $nome";
   //echo "</br>";
