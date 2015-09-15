@@ -25,7 +25,7 @@ $contas_novas = [
   'Conta de telefone',
   'Janderson'
 ];
-
+$numeros = array(10 ,60 ,30 ,20);
 
 
   //echo "Meu nome e $nome";
