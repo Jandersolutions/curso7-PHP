@@ -27,6 +27,11 @@ $contas_novas = [
 ];
 $numeros = array(10 ,60 ,30 ,20);
 
+$variavel = 50;
+define("CONSTANTE" , 50);
+
+define("CUMPRIMENTO" , "Alô Mundo");
+
 
   //echo "Meu nome e $nome";
   //echo "</br>";
