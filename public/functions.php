@@ -32,9 +32,16 @@ define("CONSTANTE" , 50);
 
 define("CUMPRIMENTO" , "Alô Mundo");
 
-$var1 = NULL;
-echo is_null($var1);
-echo isset($var1);
+
+function calcula_idade($idade_recente){
+  if($idade_recente < 18){
+    echo "<h1>"."Voce e de menor! tem menos de 18 anos"."</h1>";
+  }elseif($idade_recente >= 18){
+    echo "<h1>"."Voce e de maior! bem vindo ao site!"."</h1>";
+  }else{
+    echo "<h1>"."Voce e de maior bem vindo ao site!"."</h1>";
+  }
+}
 
 
   //echo "Meu nome e $nome";
