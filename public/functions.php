@@ -42,8 +42,21 @@ function calcula_idade($idade_recente){
     echo "<h1>"."Voce e de maior bem vindo ao site!"."</h1>";
   }
 }
-
-
+function ola(){
+  echo "Ola Mundo!";
+}
+$int = 200;
+$string = "very long text";
+$array = array(
+  1 => "cat",
+  2 => "dog",
+  3 => "bird",
+  4 => "fox"
+);
+function bem_vindo($pessoa){
+  echo "Bem vindo $pessoa";
+  var_dump(debug_backtrace());
+}
   //echo "Meu nome e $nome";
   //echo "</br>";
   //echo 'Meu nome e '. $nome ;
