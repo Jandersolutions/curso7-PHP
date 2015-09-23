@@ -7,9 +7,11 @@ require_once('var.php');
     <?php print_r($_POST);?>
 </pre>
 <?php
-$username = $_POST["user"];
-$password = $_POST['password'];
-echo "<h3>"."O nome de usuario e: ".$username . " e a senha e: " . $password . "</h3>";
+if(isset($_POST["submit"])) {
+    $username = $_POST["user"];
+    $password = $_POST['password'];
+    echo "<h3>" . "O nome de usuario e: " . $username . " e a senha e: " . $password . "</h3>";
+}
 ?>
 <?php
 include('footer.php');
