@@ -1,7 +1,7 @@
 body{
   text-rendering: geometricPrecision;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
     line-height: 1.1;
@@ -9,4 +9,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   .fa{
     margin-right: 10px;
+  }
+  .formulario{
+      margin-top: 100px;
+  }
+  .well{
+      background-color: #DADADA;
   }
