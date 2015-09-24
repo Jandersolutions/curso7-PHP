@@ -2,15 +2,20 @@
 if(isset($_POST['submit'])){
     $username = $_POST['user'];
     $password = $_POST['password'];
-    $message = "Bem vindo: " . $username;
-    if($password == ""){
-        $message = "Senha invalida";
+    
+    //isset() - Informa se a variavel foi iniciada
+    //empty() - Informa se a variavel e vazia
+    //srtlen() - Retorna o tamanho da string
+
+    if(!isset($username) || empty($username)){
+        $message = "Usuario nao definido";
+    }else{
+        $message = "Logado como: ". $username;
     }
-    if($username == ""){
-        $message = "Nome invalido";
-    }
+
 }else{
-$message = "Por favor efetue login";
+    $username = "";
+    $message = "Por favor efetue login";
 }
 ?>
 <?php
