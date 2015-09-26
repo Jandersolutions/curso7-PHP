@@ -2,7 +2,7 @@
 if(isset($_POST['submit'])){
     $username = $_POST['user'];
     $password = $_POST['password'];
-    
+
     //isset() - Informa se a variavel foi iniciada
     //empty() - Informa se a variavel e vazia
     //srtlen() - Retorna o tamanho da string
@@ -22,6 +22,7 @@ if(isset($_POST['submit'])){
 include('header.php');
 
 require_once('var.php');
+require_once('validation.php');
 ?>
 <?php echo "<h2>". $message."</h2>"; ?>
 <content class="row">
